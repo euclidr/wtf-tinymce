@@ -1,7 +1,7 @@
 tinymce.PluginManager.add('lineheight', function(editor, url) {
     var pluginName='设置行高';
     var global$1 = tinymce.util.Tools.resolve('tinymce.util.Tools');
-    var lineheight_val = editor.getParam('lineheight_val', '1 1.5 1.6 1.75 1.8 2 3 4 5');
+    var lineheight_val = editor.getParam('lineheight_val', '1 1.2 1.3 1.5 1.6 1.75 1.8 2 3 4 5');
 
     editor.on('init', function() {
         editor.formatter.register({
